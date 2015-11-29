@@ -12,5 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.timeago
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+  $('.timeago').timeago();
+});

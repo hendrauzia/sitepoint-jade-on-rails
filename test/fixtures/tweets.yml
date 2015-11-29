@@ -1,0 +1,99 @@
+vilho_one:
+  user: vilho
+  text: Just when I thought things couldn't get any worse, someone leaves me a voice mail and tells me to call them back
+  created_at: <%= 5.minutes.ago %>
+
+jenny_one:
+  user: jenny
+  text: alcohol is never the answer, unless the question is, "why were you barely conscious on the kitchen floor eating dog food?"
+  created_at: <%= 7.minutes.ago %>
+
+juho_one:
+  user: juho
+  text: I'm not ordained but I can bless anything. Go ahead and sneeze.
+  created_at: <%= 15.minutes.ago %>
+
+ray_one:
+  user: ray
+  text: Loneliness is called solitude when you enjoy it.
+  created_at: <%= 19.minutes.ago %>
+
+mattie_one:
+  user: mattie
+  text: Who's the idiot that named them Monkey Bars? Do monkeys even drink?
+  created_at: <%= 25.minutes.ago %>
+
+nathalja_one:
+  user: nathalja
+  text: "Relationship status: I get the remote to myself!"
+  created_at: <%= 25.minutes.ago %>
+
+alicia_one:
+  user: alicia
+  text: Nobody, not even the purest heart, escapes life without suffering scars.
+  created_at: <%= 31.minutes.ago %>
+
+jenny_two:
+  user: jenny
+  text: As a grown-up, the story of Goldilocks trying to find "the right bed" really makes sense to me now.
+  created_at: <%= 37.minutes.ago %>
+
+josh_one:
+  user: josh
+  text: You can tell a lot about a woman who buys batteries in bulk.
+  created_at: <%= 42.minutes.ago %>
+
+willard_one:
+  user: willard
+  text: I'm more of a malarkey than a debauchery kinda girl
+  created_at: <%= 55.minutes.ago %>
+
+mattie_two:
+  user: mattie
+  text: My smooth dairy product attracts all the gentlemen to the recreational field and they annouce "It's superior to thine"
+  created_at: <%= 56.minutes.ago %>
+
+josh_two:
+  user: josh
+  text: Join the Dark Side, we have free Coca-Cola
+  created_at: <%= 59.minutes.ago %>
+
+vilho_two:
+  user: vilho
+  text: Life is filled with misery & pain but at least there is still gravy & biscuits
+  created_at: <%= 67.minutes.ago %>
+
+alicia_two:
+  user: alicia
+  text: cloudy with a chance of emotional instability and social anxiety.
+  created_at: <%= 75.minutes.ago %>
+
+juho_two:
+  user: juho
+  text: 5 years ago during an interview i was asked where i see myself in 5 years and i accurately guessed "taking pics of my beer to show the guys"
+  created_at: <%= 80.minutes.ago %>
+
+willard_two:
+  user: willard
+  text: If Amazon made a self-driving car, it would take their employees to work on Saturday.
+  created_at: <%= 89.minutes.ago %>
+
+alice_one:
+  user: alice
+  text: All the love as always. H
+  created_at: <%= 97.minutes.ago %>
+
+ray_two:
+  user: ray
+  text: Proud of my boys the new single is sick. Big love. :) x
+  created_at: <%= 106.minutes.ago %>
+
+jenny_three:
+  user: jenny
+  text: Doing a huge Christmas Giveaway. Fav this tweet to win!
+  created_at: <%= 126.minutes.ago %>
+
+nathalja_two:
+  user: nathalja
+  text: I'm so happy after such a long struggle to be living my true self. Welcome to the world Caitlyn. Can't wait for you to get to know her/me.
+  created_at: <%= 129.minutes.ago %>
