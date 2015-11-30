@@ -1,0 +1,46 @@
+.profile {
+  background-color: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 5px;
+  overflow: auto;
+  padding: 9px 18px 9px 12px;
+  width: 590px;
+}
+
+.profile__photo {
+  border-radius: 6px;
+  float: left;
+  margin-right: 12px;
+}
+
+.profile__info {
+  margin-top: 20px;
+}
+
+.profile__name {
+  color: #292f33;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.profile__username {
+  color: #8899a6;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

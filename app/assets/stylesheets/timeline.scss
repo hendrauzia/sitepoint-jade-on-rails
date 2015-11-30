@@ -1,18 +1,22 @@
-.tweets {
+.timeline {
   border-top: 1px solid #e1e8ed;
   border-radius: 6px;
+  clear: both;
   list-style: none;
   margin: auto;
   padding: 0;
   width: 590px;
+
+  > *:last-child {
+    border-radius: 0 0 6px 6px;
+  }
 }
 
-.tweets__more {
+.timeline__more {
   background: white;
   border-bottom: 1px solid #e1e8ed;
   border-left: 1px solid #e1e8ed;
   border-right: 1px solid #e1e8ed;
-  border-radius: 0 0 6px 6px;
   font-size: 12px;
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
@@ -22,7 +26,7 @@
   }
 }
 
-.tweets__more-link {
+.timeline__more-link {
   color: #0084B4;
   cursor: pointer;
   display: block;

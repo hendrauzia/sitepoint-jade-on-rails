@@ -1,0 +1,13 @@
+<li class="tweet">
+  <%= link_to tweet.user, class: "tweet__name" do %>
+    <img src="<%= tweet.user.thumbnail %>" class="tweet__photo" />
+  <% end %>
+  <div class="tweet__body">
+    <div class="tweet__info">
+      <%= link_to tweet.user.name, tweet.user, class: "tweet__name" %>
+      <%= link_to "@#{tweet.user.username}", tweet.user, class: "tweet__username" %>
+      <span class="tweet__date timeago" title="<%= tweet.created_at.iso8601 %>"></span>
+    </div>
+    <div class="tweet__text" data-autolink="true"><%= tweet.text %></div>
+  </div>
+</li>

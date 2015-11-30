@@ -1,0 +1,10 @@
+<div class="profile">
+  <%= image_tag @user.thumbnail, class: "profile__photo" %>
+  <div class="profile__info">
+    <%= link_to @user.name, @user, class: "profile__name" %>
+    <%= link_to "@#{@user.username}", @user, class: "profile__username" %>
+  </div>
+</div>
+<ol class="timeline">
+  <%= render @tweets %>
+</ol>
