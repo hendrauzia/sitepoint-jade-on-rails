@@ -14,8 +14,12 @@
 //= require jquery_ujs
 //= require jquery.timeago
 //= require turbolinks
+//= require jade/runtime
 //= require_tree .
 
-$(document).ready(function(){
-  $('.timeago').timeago();
-});
+var ready = function(){
+  Timeline.new();
+}
+
+$(document).ready(ready);
+$(document).on('page:load', ready)

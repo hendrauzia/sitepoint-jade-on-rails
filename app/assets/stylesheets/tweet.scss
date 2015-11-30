@@ -46,6 +46,7 @@
 
 .tweet__username {
   color: #8899a6;
+  margin-left: 5px;
   text-decoration: none;
 
   &:hover {
@@ -55,6 +56,12 @@
 
 .tweet__date {
   color: #8899a6;
+  margin-left: 3px;
+
+  &:before {
+    content: "\00b7";
+    margin-right: 3px;
+  }
 }
 
 .tweet__text {

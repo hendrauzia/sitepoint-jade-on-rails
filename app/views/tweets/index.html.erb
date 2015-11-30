@@ -1,6 +1,6 @@
 <ol class="timeline">
   <%= render @tweets %>
   <li class="timeline__more">
-    <a class="timeline__more-link" href="">More</a>
+    <%= link_to "More", root_path(page: @tweets.next_page, format: :json), class: "timeline__more-link", remote: true %>
   </li>
 </ol>

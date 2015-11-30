@@ -45,7 +45,7 @@
       allowFuture: false,
       localeTitle: false,
       cutoff: 0,
-      autoDispose: true,
+      autoDispose: false,
       strings: {
         prefixAgo: null,
         prefixFromNow: null,

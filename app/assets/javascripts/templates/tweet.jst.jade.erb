@@ -1,0 +1,9 @@
+li.tweet
+  a.tweet__name(href=tweet.user.links.self)
+    img.tweet__photo(src=tweet.user.thumbnail)
+  .tweet__body
+    .tweet__info
+      a.tweet__name(href=tweet.user.links.self)=tweet.user.name
+      a.tweet__username(href=tweet.user.links.self) @#{tweet.user.username}
+      span.tweet__date.timeago(title=tweet.created_at)
+    .tweet__text=tweet.text
