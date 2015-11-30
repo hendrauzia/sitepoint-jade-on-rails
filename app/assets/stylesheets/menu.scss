@@ -1,6 +1,14 @@
 .menu {
+  background: image-url('home.png') center center no-repeat;
   background-color: white;
+  background-size: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   height: 46px;
   margin-bottom: 7px;
+}
+
+.menu__link {
+  display: block;
+  height: 100%;
+  width: 100%;
 }

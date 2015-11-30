@@ -7,8 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="menu"></div>
+  <div class="menu">
+    <%= link_to "", root_path, class: "menu__link" %>
+  </div>
   <%= yield %>
-
 </body>
 </html>
